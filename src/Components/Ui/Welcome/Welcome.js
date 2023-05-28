@@ -1,4 +1,5 @@
 import "./Welcome.css";
+import { NavLink } from "react-router-dom";
 
 function Welcome() {
   return (
@@ -11,7 +12,7 @@ function Welcome() {
           "student" attends a secondary school or higher; those in primary or
           elementary schools
         </p>
-        <button className="welcome-btn">Enroll now!</button>
+        <NavLink className="welcome-btn" to='enrollbot'>Enroll now!</NavLink>
       </div>
     </main>
   );

@@ -1,0 +1,15 @@
+.bot-main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot-head-text{
+    color: #9c8321;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1rem;
+    text-align: center;
+}
