@@ -1,0 +1,46 @@
+header {
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: white;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-tabsdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .header-logotext {
+    color: #9c8321;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .header-tab {
+    color: #0c134f;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  /* resonsiveness */
+  @media screen and (max-width: 700px) {
+    .header-container {
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+  
+    .header-tabsdiv {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+  

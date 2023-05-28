@@ -1,0 +1,39 @@
+.welcome-main-div {
+    width: 100%;
+    height: 73.3vh;
+  }
+  
+  .welcome-introdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .welcome-welcome {
+    color: #0c134f;
+    font-size: 3rem;
+    font-weight: 100;
+    text-align: center;
+  }
+  
+  .welcome-descrip {
+    color: #9c8321;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .welcome-btn {
+    background: #0c134f;
+    color: #9c8321;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
