@@ -1,0 +1,25 @@
+.ini-btn {
+  /* color: #0c134f;
+    width: 3rem;
+    background: white;
+    padding: 0.3rem;
+    border: 2px solid #0c134f;
+    border-radius: 0.8rem;
+    font-weight: 500;
+    cursor: pointer; */
+
+  padding: 8px 15px;
+  border: 1px solid #2898ec;
+  border-radius: 25px;
+  color: #1f91e7;
+  font-size: 0.9rem;
+  margin: 3px;
+  box-shadow: inset 0px 0px 0px #2273c4;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.ini-btn:hover {
+    box-shadow: inset 195px 0px 0px #2273c4;
+    color: #ffffff;
+  }

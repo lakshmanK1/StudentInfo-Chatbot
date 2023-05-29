@@ -1,5 +1,6 @@
 .bot-main-container{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,8 +9,46 @@
 
 .bot-head-text{
     color: #9c8321;
+    width: 100%;
     font-size: 2.5rem;
     font-weight: 800;
-    line-height: 1rem;
     text-align: center;
+}
+
+
+.react-chatbot-kit-chat-container{
+    position: relative;
+    width: 700px;
+}
+
+.react-chatbot-kit-chat-bot-message-container {
+    display: flex;
+    margin: 15px 0;
+    justify-content: flex-start;
+}
+
+.react-chatbot-kit-chat-bot-message{
+    background-color: #2898ec;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: medium;
+    position: relative;
+    width: 184.5px;
+    text-align: left;
+    margin-left: 0;
+}
+
+  
+/* responsiveness */
+@media screen and (max-width:700px) {
+    .react-chatbot-kit-chat-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .bot-head-text{
+ 
+    }
 }

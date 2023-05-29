@@ -3,6 +3,7 @@ import {createBrowserRouter, createRoutesFromElements, Route, RouterProvider} fr
 import Home from './Pages/Home/Home';
 import Layout from './Pages/Layout/Layout';
 import StudentBot from './Pages/StudentBot/StudentBot';
+import StudentPage from './Pages/StudentPage/StudentPage';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <Route path='/' element={<Layout/>}>
       <Route index element={<Home/>}/>
       <Route path='enrollbot' element={<StudentBot/>}/>
+      <Route path='studentpage' element={<StudentPage/>}/>
     </Route>
   ));
 

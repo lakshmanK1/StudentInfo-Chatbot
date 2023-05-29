@@ -1,0 +1,24 @@
+.timer-div{
+    background: #f1f6f9;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.timer-header{
+    color: #30A2FF;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.timer-count{
+    color: #30A2FF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}

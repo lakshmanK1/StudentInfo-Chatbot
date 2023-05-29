@@ -1,0 +1,68 @@
+.stuInfo-main{
+    padding: 1.5rem;
+    height: 72vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.stuInfo-div{
+    background: white;
+    border-radius: 0.5rem;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stuInfo-name{
+    color: #0c134f;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.stuInfo-age{
+    color: #0c134f;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.stuInfo-greet{
+    color: #9c8321;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center; 
+}
+
+.stuInfo-btn{
+    color: #9c8321;
+    width:6rem;
+    height: 4rem;
+    background: #0c134f;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media screen and (max-width:700px) {
+    
+    .stuInfo-main{
+        gap: 0.5rem;
+    }
+
+    .stuInfo-btn{
+        height: 3rem;
+        margin-bottom: 2rem;
+    }
+}

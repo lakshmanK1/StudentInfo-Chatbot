@@ -1,0 +1,88 @@
+input {
+    background-color: #e3edf7;
+    padding: 16px 32px;
+    border: 1px solid #00ABE4;
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #a9b8c9;
+    transition: all 240ms ease-out;
+    width: 50%;
+    height: 50%;
+    border-radius: 1.5rem;
+    
+    &::placeholder {
+      color: #6d7f8f;
+    }
+    
+    &:focus {
+      outline: none;
+      color: #6d7f8f;
+      background-color: lighten(#e3edf7, 3%);
+    }
+  };
+
+  
+.ipdetail-head{
+  font-size: 1rem;
+  text-align: center;
+}
+
+.ip-form{
+    display: flex;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+.ip-sendbtn{
+    color: #04668a;
+    width: 2rem;
+    height: 2rem; 
+    cursor: pointer;
+}
+
+.box {
+    padding-bottom: 8rem;
+  }
+  
+  .box select {
+    background-color: #0563af;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  
+  .box::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box select option {
+    padding: 30px;
+  }
