@@ -68,7 +68,7 @@ export const UserName = () => {
     const student = useSelector(state=>state.studentStore.studentData);
     return(
         <div>
-            <p>{`Hey ${student.name}!, one more question for you.`}</p>    
+            <p>{`Hey ${student.name}, one more question for you.`}</p>    
         </div>
     );
 }

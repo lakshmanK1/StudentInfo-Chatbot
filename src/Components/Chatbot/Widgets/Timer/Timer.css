@@ -10,15 +10,15 @@
 }
 
 .timer-header{
-    color: #30A2FF;
-    font-size: 1rem;
+    color: #0c134f;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
 }
 
 .timer-count{
-    color: #30A2FF;
-    font-size: 1.5rem;
+    color: #0c134f;
+    font-size: 2rem;
     font-weight: 700;
     text-align: center;
 }

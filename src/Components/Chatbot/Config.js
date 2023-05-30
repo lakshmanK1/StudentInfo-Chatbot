@@ -1,6 +1,5 @@
 import { createChatBotMessage } from 'react-chatbot-kit';
 import GotItBtn from './Widgets/GotItBtn/GotItBtn';
-import StuQuestions from './Widgets/StuQuestions/StuQuestions';
 import { NameInput, AgeInput} from './Widgets/InputDetails/InputDetails';
 import Timer from './Widgets/Timer/Timer';
 import BotAvatar from './BotAvatar/BotAvatar';
@@ -38,10 +37,7 @@ const config = {
       widgetFunc:(props)=><Timer {...props}/>
     }
 
-  ],
-  state: {
-    studentDetails : [],
-  }
+  ]
 };
 
 export default config;

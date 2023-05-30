@@ -1,15 +1,15 @@
 import React, { Suspense } from 'react'
 
-const Bot = React.lazy(()=>import('../../Components/Chatbot/Bot'));
+const NotFound = React.lazy(()=>import('../../Components/Ui/NotFound/NotFound'));
 
-function StudentBot() {
+function NotFoundPage() {
   return (
     <>
     <Suspense fallback={<center><h1>Loading...</h1></center>}>
-    <Bot/>
+    <NotFound/>
     </Suspense>
     </>
   )
 }
 
-export default StudentBot
+export default NotFoundPage

@@ -1,10 +1,13 @@
-import React from 'react'
-import StudentInfo from '../../Components/Ui/StudentInfo/StudentInfo'
+import React, { Suspense } from 'react'
+
+const StudentInfo = React.lazy(()=>import('../../Components/Ui/StudentInfo/StudentInfo'));
 
 function StudentPage() {
   return (
     <>
-        <StudentInfo/>
+    <Suspense fallback={<center><h1>Loading...</h1></center>}>
+    <StudentInfo/>
+    </Suspense>
     </>
   )
 }
