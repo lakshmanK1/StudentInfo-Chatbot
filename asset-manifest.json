@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/StudentInfo-Chatbot/static/css/main.2853283e.css",
+    "main.js": "/StudentInfo-Chatbot/static/js/main.2b281f4b.js",
+    "static/css/262.5fb6af8c.chunk.css": "/StudentInfo-Chatbot/static/css/262.5fb6af8c.chunk.css",
+    "static/js/262.d6152244.chunk.js": "/StudentInfo-Chatbot/static/js/262.d6152244.chunk.js",
+    "static/css/578.77f37447.chunk.css": "/StudentInfo-Chatbot/static/css/578.77f37447.chunk.css",
+    "static/js/578.4f0a7ed8.chunk.js": "/StudentInfo-Chatbot/static/js/578.4f0a7ed8.chunk.js",
+    "static/css/273.8edc2859.chunk.css": "/StudentInfo-Chatbot/static/css/273.8edc2859.chunk.css",
+    "static/js/273.d96c8a67.chunk.js": "/StudentInfo-Chatbot/static/js/273.d96c8a67.chunk.js",
+    "static/css/176.bfdb6e70.chunk.css": "/StudentInfo-Chatbot/static/css/176.bfdb6e70.chunk.css",
+    "static/js/176.0490a52a.chunk.js": "/StudentInfo-Chatbot/static/js/176.0490a52a.chunk.js",
+    "static/js/787.ee3a3504.chunk.js": "/StudentInfo-Chatbot/static/js/787.ee3a3504.chunk.js",
+    "static/js/8.8c7e8449.chunk.js": "/StudentInfo-Chatbot/static/js/8.8c7e8449.chunk.js",
+    "static/js/692.4dd1d34c.chunk.js": "/StudentInfo-Chatbot/static/js/692.4dd1d34c.chunk.js",
+    "static/media/bot.svg": "/StudentInfo-Chatbot/static/media/bot.f1377573c19196ee1ddccd835065fe6f.svg",
+    "index.html": "/StudentInfo-Chatbot/index.html",
+    "main.2853283e.css.map": "/StudentInfo-Chatbot/static/css/main.2853283e.css.map",
+    "main.2b281f4b.js.map": "/StudentInfo-Chatbot/static/js/main.2b281f4b.js.map",
+    "262.5fb6af8c.chunk.css.map": "/StudentInfo-Chatbot/static/css/262.5fb6af8c.chunk.css.map",
+    "262.d6152244.chunk.js.map": "/StudentInfo-Chatbot/static/js/262.d6152244.chunk.js.map",
+    "578.77f37447.chunk.css.map": "/StudentInfo-Chatbot/static/css/578.77f37447.chunk.css.map",
+    "578.4f0a7ed8.chunk.js.map": "/StudentInfo-Chatbot/static/js/578.4f0a7ed8.chunk.js.map",
+    "273.8edc2859.chunk.css.map": "/StudentInfo-Chatbot/static/css/273.8edc2859.chunk.css.map",
+    "273.d96c8a67.chunk.js.map": "/StudentInfo-Chatbot/static/js/273.d96c8a67.chunk.js.map",
+    "176.bfdb6e70.chunk.css.map": "/StudentInfo-Chatbot/static/css/176.bfdb6e70.chunk.css.map",
+    "176.0490a52a.chunk.js.map": "/StudentInfo-Chatbot/static/js/176.0490a52a.chunk.js.map",
+    "787.ee3a3504.chunk.js.map": "/StudentInfo-Chatbot/static/js/787.ee3a3504.chunk.js.map",
+    "8.8c7e8449.chunk.js.map": "/StudentInfo-Chatbot/static/js/8.8c7e8449.chunk.js.map",
+    "692.4dd1d34c.chunk.js.map": "/StudentInfo-Chatbot/static/js/692.4dd1d34c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2853283e.css",
+    "static/js/main.2b281f4b.js"
+  ]
+}
